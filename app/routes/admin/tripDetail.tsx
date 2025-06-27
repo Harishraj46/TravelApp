@@ -165,7 +165,7 @@ const tripDetail = ({loaderData}:Route.ComponentProps) => {
                 <section className="flex flex-col gap-6">
                     <h2 className="p-24-semibold text-dark-100">Popular Trips</h2>
                 <div className="trip-grid">
-                    {allTrips.map(({id,name,imageUrl,itinerary,location,interests,travelStyle,estimatedPrice}) => (
+                    {allTrips.map(({id,name,imageUrl,itinerary,interests,travelStyle,estimatedPrice}) => (
                         
                         <Tripcards
                             key={id}
